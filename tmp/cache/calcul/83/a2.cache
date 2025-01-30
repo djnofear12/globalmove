@@ -1,0 +1,99 @@
+a:2:{s:9:"nom_cache";s:38:"83a2ffa0d95b79f993c6c78d6d782815.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_89a3ec89eba594e1abacf4548baca3d0";s:6:"source";s:22:"squelettes/footer.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"83a2ffa0d95b79f993c6c78d6d782815.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:4019:"<!-- content close -->
+
+<a href="#" id="back-to-top"></a>
+<!-- footer begin -->
+<footer class="text-light">
+    <div class="container">
+        <div class="row g-custom-x">
+            <div class="col-lg-3">
+                <div class="widget">
+                    <h5>About Global Move Solutions</h5>
+                    <p>At Global Move Solutions, we deliver quality, reliable, and affordable travel solutions. Our well-maintained vehicles and exceptional service ensure a smooth and enjoyable journey.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3">
+                <h5>Links</h5>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="widget">
+                            <ul>
+                                <li><a href="http://localhost/globalmovesolutions">Home</a></li>
+                                <li><a href="spip.php?rubrique2">About Us</a></li>
+                                <li><a href="spip.php?rubrique3">Car Rentals</a></li>
+                                <li><a href="spip.php?rubrique4">Reviews</a></li>
+                                <li><a href="spip.php?rubrique5">Contact Us</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="widget">
+                    <h5>Contact</h5>
+                    <address class="s1">
+                        <span><i class="id-color fa fa-map-marker fa-lg"></i>  KG 229 St , Kigali City.</span>
+                        <span><i class="id-color fa fa-phone fa-lg"></i>+250 788 450 976 <br> 
+                            <i class="id-color fa fa-phone fa-lg"></i>+250 788 450 961</span>
+                        <span><i class="id-color fa fa-envelope-o fa-lg"></i> <a href="mailto:info@globalmovesolutions.com" style="font-size: 15px;">info@globalmovesolutions.com</a></span>
+                    </address>
+                    
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-3">
+                <div class="widget">
+                    <h5>Social Media</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-google fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-tripadvisor fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <div class="subfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="de-flex">
+                        <div class="de-flex-col">
+                            
+                                <p>© <span id="year"></span> <a href="http://localhost/globalmovesolutions">Global Move Solutions </a>. All rights reserved.</p>
+                           
+                        </div>
+                        <ul class="menu-simple">
+                            Crafted By<li><a href="#">The Click Creation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer close -->
+</div>
+
+<!-- Javascript Files
+================================================== -->
+<script src="js/plugins.js"></script>
+<script src="js/designesia.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const currentYear = new Date().getFullYear();
+      document.getElementById('year').textContent = currentYear;
+    });
+  </script>
+
+</body>
+
+
+</html>";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"fr";s:4:"date";s:19:"2025-01-27 12:02:59";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2025-01-27 12:02:59";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1737975772;s:2:"gz";b:0;s:3:"sig";i:557256446;}}

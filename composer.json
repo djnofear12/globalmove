@@ -1,0 +1,65 @@
+{
+    "license": "GPL-3.0-only",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "ext-sodium": "*",
+        "ext-xml": "*",
+        "ext-zip": "*",
+        "algo26-matthias/idna-convert": "^3.1",
+        "symfony/deprecation-contracts": "^2.5",
+        "symfony/polyfill-mbstring": "^1.31",
+        "symfony/polyfill-php80": "^1.31",
+        "symfony/polyfill-php81": "^1.31",
+        "symfony/polyfill-php82": "^1.31",
+        "symfony/polyfill-php83": "^1.31",
+        "symfony/polyfill-php84": "^1.31"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "phpstan/phpstan": "^1.10",
+        "spip/coding-standards": "^1.2"
+    },
+    "suggest": {
+        "ext-curl": "*",
+        "ext-gd": "For image processing",
+        "ext-mbstring": "Faster than the polyfill for string actions",
+        "ext-mysqli": "*",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spip\\": "ecrire/src/"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "!vendor",
+            "phpcs.xml.dist",
+            "phpstan.neon.dist",
+            "phpstan-baseline.neon",
+            "!plugins-dist",
+            "!squelettes-dist",
+            "config/",
+            "!config/ecran_securite.php",
+            "!config/remove.txt",
+            "IMG/",
+            "!IMG/remove.txt",
+            "local/",
+            "!local/remove.txt",
+            "!local/CACHEDIR.TAG",
+            "tmp/",
+            "!tmp/remove.txt",
+            "!tmp/CACHEDIR.TAG"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "platform": {
+            "php": "7.4.33"
+        }
+    }
+}

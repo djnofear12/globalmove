@@ -1,0 +1,16 @@
+a:7:{s:6:"status";i:200;s:7:"headers";s:543:"Date: Mon, 27 Jan 2025 11:03:45 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding,User-Agent
+Composed-By: SPIP 4.3.6 @ www.spip.net + https://www.spip.net/local/config.txt
+Access-Control-Allow-Origin: *
+Set-Cookie: spip_lang=fr; path=/; secure; SameSite=Lax
+Strict-Transport-Security: max-age=63072000
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Upgrade: h2
+Connection: Upgrade, close
+Last-Modified: Mon, 27 Jan 2025 09:53:35 GMT
+Cache-Control: max-age=0
+Expires: Mon, 27 Jan 2025 11:03:45 GMT
+Content-Type: application/json
+";s:4:"page";s:415:"{"api":2,"versions":{"dev":"spip\/dev\/spip-master.zip","4.4.0-beta3":"spip\/dev\/spip-v4.4.0-beta3.zip","4.3.6":"spip\/archives\/spip-v4.3.6.zip","4.2.17":"spip\/archives\/spip-v4.2.17.zip","4.1.20":"spip\/archives\/spip-v4.1.20.zip","4.0.11":"spip\/archives\/spip-v4.0.11.zip"},"default_branch":"4.3","requirements":{"php":{"master":"8.2.0","4.4":"7.4.0","4.3":"7.4.0","4.2":"7.4.0","4.1":"7.4.0","4.0":"7.3.0"}}}";s:6:"length";i:415;s:13:"last_modified";i:1737971615;s:8:"location";s:0:"";s:3:"url";s:36:"https://www.spip.net/spip_loader.api";}

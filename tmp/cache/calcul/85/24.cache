@@ -1,0 +1,346 @@
+a:2:{s:9:"nom_cache";s:38:"8524b6feb1e173dcea7fd2f15b68feb1.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_3b6efe5f09d656bab420b2327399ba2b";s:6:"source";s:35:"../prive/themes/spip/icons.css.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"8524b6feb1e173dcea7fd2f15b68feb1.cache";}s:7:"entetes";a:5:{s:12:"X-Spip-Cache";s:6:"360000";s:13:"Cache-Control";s:14:"max-age=360000";s:15:"X-Spip-Statique";s:3:"oui";s:12:"Content-Type";s:22:"text/css;charset=utf-8";s:4:"Vary";s:15:"Accept-Encoding";}s:5:"duree";i:360000;s:5:"texte";s:7140:"
+
+:root {
+	--spip-icon-btn-font-size: 0.85em;
+	--spip-icon-btn-padding: 0.5em;
+	--spip-icon-btn-color-base: var(--spip-color-gray-lighter);
+	--spip-icon-btn-color-hover: var(--spip-color-theme-light);
+	--spip-icon-btn-color-active: var(--spip-color-theme);
+	--spip-icon-btn-width: 5rem;
+}
+
+/**
+ * ==============================
+ * 1. Icône verticale/horizontale
+ * ==============================
+ *
+ * Par défaut, icône verticale.
+ * Une variante horizontale.
+ *
+ * Markup :
+ * <span class="icone danger horizontale s24 left">
+ *   <a>
+ *     <img>
+ *     <b>texte</b>
+ *   </a>
+ * </span>
+ */
+
+.icone {
+	position: relative; /* Afin que le z-index soit pris en compte */
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 0.25em;
+	vertical-align: middle;
+}
+
+/* Conteneur lien */
+.icone a {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: inherit;
+	justify-content: inherit;
+	width: var(--spip-icon-btn-width);
+	padding: var(--spip-icon-btn-padding) 0;
+	cursor: pointer;
+	transition: all 0.2s;
+	border-radius: inherit;
+}
+
+/* Label */
+.icone b,
+.box .icone b {
+	font-weight: 500;
+	margin: 0.5em 0 0;
+	font-size: var(--spip-icon-btn-font-size);
+	line-height: 1;
+	color: var(--spip-color-link);
+}
+
+/* Survol et cie */
+.icone a:hover,
+.icone a:focus {
+	text-decoration: none;
+}
+.icone a:hover .icone-image,
+.icone a:focus .icone-image {
+	background-color: var(--spip-icon-btn-color-hover);
+	        box-shadow: none;
+}
+.icone a:active .icone-image,
+.icone a:active .icone-image {
+	background-color: var(--spip-icon-btn-color-active);
+}
+.icone a:hover b,
+.icone a:focus b {
+	color: var(--spip-color-text);
+}
+/* Si icone fonction, animation bling */
+.icone a:hover .icone-image.icone-fonction,
+.icone a:focus .icone-image.icone-fonction {
+	background-color: transparent;
+}
+.icone a:hover .icone-fonction img,
+.icone a:focus .icone-fonction img {
+	opacity: 0;
+}
+.icone a:hover .icone-fonction:after,
+.icone a:focus .icone-fonction:after {
+	background-size: 60% auto;
+	background-position: center center;
+	transition: background 0.2s; /* aller */
+}
+
+/**
+ * Images
+ * Nb : les URLs sont mutualisées avec les boutons, donc définies dans boutons.css
+ * .icone-image : image de base
+ * .icone-fonction : mini image optionnelle par-dessus la précédente
+ */
+.icone .icone-image {
+	padding: var(--spip-icon-btn-padding);
+	border-radius: inherit;
+	/* background-color: hsla(0, 0%, 0%, 0.025); */
+	background-color: var(--spip-icon-btn-color-base);
+	box-shadow: inset 0 0 0.75em hsla(0, 0%, 0%, 0.033);
+	transition: all 0.2s;
+}
+.icone .icone-image img {
+	display: block;
+	transition: inherit;
+}
+.icone-fonction {
+	display: flex; /* éviter espacements indésirables autour de l'image */
+	position: relative;
+}
+.icone-fonction:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-position: bottom var(--spip-icon-btn-padding) right var(--spip-icon-btn-padding);
+	background-repeat: no-repeat;
+	transition: background 0.1s; /* Retour */
+}
+.icone-fonction-new:after {
+	background-position-y: var(--spip-icon-btn-padding);
+}
+
+.icone-fonction-add:after {
+	background-image: url("../prive/themes/spip/images/add-xx.svg");
+}
+
+.icone-fonction-new:after {
+	background-image: url("../prive/themes/spip/images/new-xx.svg");
+}
+
+.icone-fonction-del:after {
+	background-image: url("../prive/themes/spip/images/del-xx.svg");
+}
+
+.icone-fonction-config:after {
+	background-image: url("../prive/themes/spip/images/config-xx.svg");
+}
+
+.icone-fonction-edit:after {
+	background-image: url("../prive/themes/spip/images/edit-xx.svg");
+}
+
+
+/* Variante horizontale */
+.icone.horizontale {
+	clear: both;
+	justify-content: flex-start;
+	text-align: var(--spip-left);
+}
+.icone.horizontale a {
+	padding: 0.25em 0;
+	flex: 1 1 auto;
+	flex-flow: row nowrap;
+	width: auto;
+}
+.icone.horizontale b {
+	margin-top: 0;
+	margin-left: var(--spip-spacing-x);
+}
+.icone.horizontale a:not(:hover):not(:focus) b {
+	color: #666;
+	color: hsla(0, 0%, 0%, 0.6);
+}
+.icone.horizontale .icone-image {
+	flex-shrink: 0;
+	padding: 0;
+	background: transparent;
+	box-shadow: none;
+}
+.icone.horizontale .icone-fonction:after {
+	background-position: bottom 0 right 0;
+}
+.icone.horizontale .icone-fonction-new:after {
+	background-position-y: 0;
+}
+
+/* Tailles */
+.s16 .icone-image img {
+	width: 16px;
+	height: 16px;
+}
+.s16 .icone-fonction:after {
+	background-size: 8px;
+}
+.s24 .icone-image img {
+	width: 24px;
+	height: 24px;
+}
+.s24 .icone-fonction:after {
+	background-size: 12px;
+}
+.s32 .icone-image img {
+	width: 32px;
+	height: 32px;
+}
+.s32 .icone-fonction:after {
+	background-size: 16px;
+}
+
+/* Variantes alignement */
+.icone.left {
+	float: var(--spip-left);
+}
+.icone.horizontale.left,
+.icone.horizontale.right {
+	clear: none;
+}
+.icone.right {
+	float: var(--spip-right);
+}
+.icone.center {
+	clear: both;
+	display: table !important; /* Seule façon d'auto-centrer un élément indépendamment du parent */
+	margin-left: auto;
+	margin-right: auto;
+}
+.icone.clearleft {
+	clear: var(--spip-left);
+}
+.icone.clearright {
+	clear: var(--spip-right);
+}
+
+
+/* Variante danger (à mutualiser avec boutons.css ?) */
+.icone.danger a {
+	background-image: url("../prive/images/rayures-sup.svg");
+	background-color: transparent;
+}
+.icone.danger b {
+	color: #222;
+	text-shadow: 0 0 0.25em white, 0 0 0.5em white, 0 0 1em white; /* Lisibilité */
+}
+.icone.danger .icone-image {
+	background-color: #fff;
+	border: 2px solid #ff9999;
+}
+.icone.danger a:hover b,
+.icone.danger a:focus b {
+	color: red !important;
+}
+.icone.danger a:hover .icone-image,
+.icone.danger a:focus .icone-image {
+	background-color: #fff;
+	border-color: red;
+}
+.icone.horizontale.danger a {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+.icone.horizontale.danger .icone-image {
+	background: none;
+	border: none;
+}
+.icone.horizontale.danger a:hover .icone-image,
+.icone.horizontale.danger a:focus .icone-image {
+	background: none;
+}
+
+/* Cas particuliers */
+.icone.verticale.historique-24 {
+	width: 90px;
+}
+.icone.verticale.suivi-forum-24 {
+	width: 100px;
+}
+.icone.verticale.edition_deja,
+.icone.verticale.edition_deja a,
+.icone.verticale.edition_deja a b {
+	width: 100px;
+}
+.icone.verticale.edition_deja a b {
+	height: 4.8882352941176em;
+}
+
+
+/* ==================
+ * 2. Divers & oldies
+ * ==================
+ */
+
+/* icone en bord haut du cadre */
+.cadre-icone {
+	position: absolute;
+	top: -16px;
+	left: 10px;
+	z-index:1;
+	max-width:24px;
+	height:auto;
+}
+
+.iconeoff {
+	padding: 3px;
+	margin: 1px;
+	border: 1px dashed #ccc;
+	background-color: #f0f0f0;
+}
+
+.iconeon {
+	cursor: pointer;
+	padding: 3px;
+	margin: 1px;
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	border-left: solid 1px #666;
+	border-top: solid 1px #666;
+	background-color: #eee;
+}
+
+.iconedanger {
+	padding: 3px;
+	margin: 1px;
+	border: 1px dashed #000;
+	background: #fce8dd url("../prive/images/rayures-danger.svg");
+}
+
+/* OLDIES anciennes icones issues de php */
+td.icone table {}
+
+td.icone a {
+	color: #000;
+	text-decoration: none;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+td.icone a:hover {
+	text-decoration: none;
+}
+
+td.icone a img {
+	border: 0;
+}
+";s:5:"notes";s:0:"";s:8:"contexte";a:26:{s:1:"v";s:8:"20240801";s:1:"p";s:4:"14c0";s:6:"themes";s:4:"spip";s:3:"ltr";s:4:"left";s:4:"md5b";s:32:"ba98fb5b52946d56244517535bf3826b";s:13:"couleur_theme";s:6:"9dba00";s:14:"couleur_claire";s:6:"cedd80";s:14:"couleur_foncee";s:6:"9dba00";s:4:"lang";s:2:"en";s:4:"date";s:19:"2025-01-27 12:03:45";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2025-01-27 12:03:45";s:18:"date_redac_default";b:1;s:6:"claire";s:7:"#cedd80";s:6:"foncee";s:7:"#9dba00";s:4:"left";s:4:"left";s:5:"right";s:5:"right";s:3:"rtl";s:0:"";s:3:"dir";s:3:"ltr";s:9:"font-size";s:8:"0.8125em";s:11:"line-height";s:7:"1.385em";s:13:"margin-bottom";s:7:"1.385em";s:11:"text-indent";s:4:"50px";s:11:"font-family";s:28:"Helvetica, Arial, sans-serif";s:16:"background-color";s:7:"#F8F7F3";s:5:"color";s:7:"#000000";}s:12:"lastmodified";i:1737975810;s:2:"gz";b:0;s:3:"sig";i:4106387240;}}

@@ -1,0 +1,52 @@
+a:2:{s:9:"nom_cache";s:38:"a75612e8623b95db13b46ad665b16bf3.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_b1dd4a8e7fdcc7425ff3c7e60c9cc92c";s:6:"source";s:34:"../prive/themes/spip/code.css.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"a75612e8623b95db13b46ad665b16bf3.cache";}s:7:"entetes";a:5:{s:12:"X-Spip-Cache";s:6:"360000";s:13:"Cache-Control";s:14:"max-age=360000";s:15:"X-Spip-Statique";s:3:"oui";s:12:"Content-Type";s:23:"text/css; charset=utf-8";s:4:"Vary";s:15:"Accept-Encoding";}s:5:"duree";i:360000;s:5:"texte";s:1024:"
+
+.spip_code,
+.spip_cadre {
+	border: 1px solid hsl(var(--spip-color-theme--h), 10%, 85%);
+	background-color: hsla(var(--spip-color-theme--h), 10%, 95%, .75);
+	color: hsl(var(--spip-color-theme--h), 10%, 20%);
+}
+
+.spip_code {
+	font-size:0.85em;
+	border-radius: 0.125em;
+	text-shadow: 0 1px 0 hsl(var(--spip-color-theme--h), 10%, 80%);
+}
+
+.spip_cadre {
+	font-size: 1em;
+	border-radius: 0.25em;
+}
+
+.spip_code.spip_code_inline {
+	margin: 0 0.125em;
+	padding: 0 0.125em;
+}
+
+.spip_code.spip_code_block,
+.spip_cadre.spip_cadre_block {
+	margin-bottom: var(--spip-margin-bottom);
+	width: 100%;
+	box-sizing:border-box;
+	padding:0.75em;
+	overflow: auto;
+}
+
+.precode {
+	position:relative;
+}
+
+.spip_code.spip_code_block[data-language]::before,
+.spip_cadre.spip_cadre_block[data-language]::before {
+	position: absolute;
+	top: 5px;
+	right: 6px;
+	content: attr(data-language);
+	text-transform: lowercase;
+	font-family: monospace;
+	line-height: 1;
+	font-size: 0.8rem;
+	color: hsl(var(--spip-color-theme--h), 20%, 50%);
+	text-shadow: none;
+}
+";s:5:"notes";s:0:"";s:8:"contexte";a:26:{s:1:"v";s:8:"20240801";s:1:"p";s:4:"14c0";s:6:"themes";s:4:"spip";s:3:"ltr";s:4:"left";s:4:"md5b";s:32:"ba98fb5b52946d56244517535bf3826b";s:13:"couleur_theme";s:6:"9dba00";s:14:"couleur_claire";s:6:"cedd80";s:14:"couleur_foncee";s:6:"9dba00";s:4:"lang";s:2:"en";s:4:"date";s:19:"2025-01-27 12:03:45";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2025-01-27 12:03:45";s:18:"date_redac_default";b:1;s:6:"claire";s:7:"#cedd80";s:6:"foncee";s:7:"#9dba00";s:4:"left";s:4:"left";s:5:"right";s:5:"right";s:3:"rtl";s:0:"";s:3:"dir";s:3:"ltr";s:9:"font-size";s:8:"0.8125em";s:11:"line-height";s:7:"1.385em";s:13:"margin-bottom";s:7:"1.385em";s:11:"text-indent";s:4:"50px";s:11:"font-family";s:28:"Helvetica, Arial, sans-serif";s:16:"background-color";s:7:"#F8F7F3";s:5:"color";s:7:"#000000";}s:12:"lastmodified";i:1737975810;s:2:"gz";b:0;s:3:"sig";i:354031730;}}

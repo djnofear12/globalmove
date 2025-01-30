@@ -1,0 +1,101 @@
+<INCLURE(header)>
+
+<!-- content begins -->
+<div class="no-bottom no-top zebra" id="content">
+    <div id="top"></div>
+
+    <!-- section begins -->
+    <section id="subheader" class="jarallax text-light">
+        <img src="images/background/2.jpg" class="jarallax-img" alt="">
+        <div class="center-y relative text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1>Vehicle Fleet</h1>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section ends -->
+
+    <!-- Single section for all articles -->
+    <section id="section-article-list">
+        <div class="container">
+            <div class="row">
+                <!-- Loop through all articles in rubrique 8 -->
+                <BOUCLE_all_articles(ARTICLES){id_rubrique=8}>
+                    <!-- Display article content dynamically -->
+                    <div class="article-card">
+                        <!-- Article-specific image -->
+                        <img src="[(#LOGO_ARTICLE|extraire_attribut{src})]" alt="[(#TITRE|textebrut)]" class="img-fluid mb-3">
+
+                        <!-- Article title -->
+                        <h3>[(#TITRE)]</h3>
+
+                        <!-- Article description -->
+                        <p>[(#DESCRIPTIF)]</p>
+
+                        <!-- Link to full article details -->
+                        <a class="btn-main" href="[(#URL_ARTICLE)]">View Details</a>
+                    </div>
+                </BOUCLE_all_articles>
+            </div>
+        </div>
+    </section>
+    <!-- Single section ends -->
+
+</div>
+
+<style>
+    /* Styles for inline-block layout */
+    .article-card {
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        vertical-align: top;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .article-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .article-card h3 {
+        margin: 10px 0;
+        font-size: 1.5rem;
+    }
+
+    .article-card p {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 15px;
+    }
+
+    .btn-main {
+        display: inline-block;
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-main:hover {
+        background-color: #0056b3;
+    }
+
+    .container {
+        text-align: center; /* Centers the content */
+    }
+</style>
+
+<INCLURE(footer)>

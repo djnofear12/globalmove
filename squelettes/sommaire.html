@@ -1,0 +1,294 @@
+<INCLURE(header)>
+
+       <!-- ***** SLIDER Start ***** -->
+    <INCLURE(slider)>
+        <!-- ***** SLIDER End ***** -->
+
+        <section id="section-cars" style="background-size: cover; background-repeat: no-repeat;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 offset-lg-3 text-center">
+                        <span class="subtitle">Enjoy Your Ride</span>
+                        <h2>Our Vehicle Fleet</h2>
+                        <p>Driving your dreams to reality with an exquisite fleet of versatile vehicles for unforgettable journeys.</p>
+                        <div class="spacer-20"></div>
+                    </div>
+                </div>
+        
+                <div id="items-grid" class="container wow fadeIn">
+                  <div class="row">
+                      <BOUCLE_car(ARTICLES){id_rubrique=3}{0,4}>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                          <div class="de-item mb30">
+                              <div class="d-img">
+                                  <img src="[(#LOGO_ARTICLE|extraire_attribut{src})]" class="img-fluid" alt="">
+                              </div>
+                              <div class="d-info">
+                                  <div class="d-text">
+                                      <h4>#TITRE</h4>
+                                      <h5>#SOUSTITRE</h5>
+                                      <div class="d-atr-group">
+                                          <span class="d-atr"><img src="images/icons/1-green.svg" alt="">5</span>
+                                          <span class="d-atr"><img src="images/icons/2-green.svg" alt="">2</span>
+                                          <span class="d-atr"><img src="images/icons/3-green.svg" alt="">4</span>
+                                          <span class="d-atr"><img src="images/icons/4-green.svg" alt="">SUV</span>
+                                      </div>
+                                      <div class="d-price">
+                                          Daily rate from <span>#TEXTE</span><br>
+                                          <a class="btn-main" href="#URL_RUBRIQUE{8}">Rent Now</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      </BOUCLE_car>
+                  </div>
+              </div>
+              
+            </div>
+        </section>
+        
+       
+        
+                     
+            <section aria-label="section" style="background-size: 100%; background-repeat: no-repeat;">
+                <div class="container" style="background-size: 100%; background-repeat: no-repeat;">
+                    <div class="row align-items-center" style="background-size: 100%; background-repeat: no-repeat;">
+                      <BOUCLE_feature(RUBRIQUES){id_rubrique=9}>
+                        <div class="col-lg-6 offset-lg-3 text-center" style="background-size: 100%; background-repeat: no-repeat;">
+                            <h2>#TITRE</h2>
+                            <p>#TEXTE</p>
+                            <div class="spacer-20" style="background-size: 100%; background-repeat: no-repeat;"></div>
+                        </div>
+                      </BOUCLE_feature>
+                        <div class="clearfix" style="background-size: 100%; background-repeat: no-repeat;"></div>
+                        <div class="col-lg-3" style="background-size: 100%; background-repeat: no-repeat;">
+                          <div class="box-icon s2 p-small mb20 wow fadeInRight" data-wow-delay=".5s" style="background-size: 100%; background-repeat: no-repeat; visibility: hidden; animation-delay: 0.5s; animation-name: none;">
+                            <i class="fa bg-color fa-trophy"></i>
+                            <BOUCLE_first(ARTICLES){id_article=26}>
+                                <div class="d-inner" style="background-size: 100%; background-repeat: no-repeat;">
+                                    <h4>#TITRE</h4>
+                                    #TEXTE
+                                </div>
+                              </BOUCLE_first>
+                              </div>
+                              <BOUCLE_second(ARTICLES){id_article=27}>
+                             <div class="box-icon s2 p-small mb20 wow fadeInL fadeInRight" data-wow-delay=".75s" style="background-size: 100%; background-repeat: no-repeat; visibility: hidden; animation-delay: 0.75s; animation-name: none;">
+                                <i class="fa bg-color fa-road"></i>
+                                <div class="d-inner" style="background-size: 100%; background-repeat: no-repeat;">
+                                    <h4>#TITRE</h4>
+                                    #TEXTE
+                                </div>
+                            </div> 
+                              </BOUCLE_second>
+                        </div>
+
+                        <div class="col-lg-6" style="background-size: 100%; background-repeat: no-repeat;">
+                          <BOUCLE_car1(RUBRIQUES){id_rubrique=9}> 
+                          <img src="[(#LOGO_RUBRIQUE|extraire_attribut{src})]" alt="" class="img-fluid wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                          </BOUCLE_car1>
+                        </div>
+                        <div class="col-lg-3" style="background-size: 100%; background-repeat: no-repeat;">
+                           <BOUCLE_three(ARTICLES){id_article=28}>
+                            <div class="box-icon s2 d-invert p-small mb20 wow fadeInL fadeInLeft" data-wow-delay="1s" style="background-size: 100%; background-repeat: no-repeat; visibility: hidden; animation-delay: 1s; animation-name: none;">
+                                <i class="fa bg-color fa-tag"></i>
+                                <div class="d-inner" style="background-size: 100%; background-repeat: no-repeat;">
+                                    <h4>#TITRE</h4>
+                                    #TEXTE
+                                </div>
+
+                            </div>
+                           </BOUCLE_three>
+                          <BOUCLE_four(ARTICLES){id_article=29}>
+                            <div class="box-icon s2 d-invert p-small mb20 wow fadeInL fadeInLeft" data-wow-delay="1.25s" style="background-size: 100%; background-repeat: no-repeat; visibility: hidden; animation-delay: 1.25s; animation-name: none;">
+                                <i class="fa bg-color fa-map-pin"></i>
+                                <div class="d-inner" style="background-size: 100%; background-repeat: no-repeat;">
+                                    <h4>#TITRE</h4>
+                                    #TEXTE
+                                </div>
+                            </div>
+                        </div>
+                        </BOUCLE_four>
+                    </div>
+                </div>
+            </section>
+
+          
+
+            <section id="section-fun-facts" class="bg-color text-light">
+                <div class="container">
+                    <div class="row g-custom-x force-text-center">
+                        <div class="col-md-3 col-sm-6 mb-sm-30">
+                            <div class="de_count wow fadeInUp">
+                                <h3 class="timer" data-to="15425" data-speed="3000">0</h3>
+                                Successful Relocations
+                                <p class="d-small">Helping clients move smoothly with precision and care across various locations.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-sm-30">
+                            <div class="de_count wow fadeInUp">
+                                <h3 class="timer" data-to="8745" data-speed="3000">0</h3>
+                                Satisfied Clients
+                                <p class="d-small">Delivering exceptional service and exceeding customer expectations every time.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-sm-30">
+                            <div class="de_count wow fadeInUp">
+                                <h3 class="timer" data-to="235" data-speed="3000">0</h3>
+                                Vehicles in Fleet
+                                <p class="d-small">A wide range of reliable and well-maintained vehicles to suit every need.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-sm-30">
+                            <div class="de_count wow fadeInUp">
+                                <h3 class="timer" data-to="15" data-speed="3000">0</h3>
+                                Years of Expertise
+                                <p class="d-small">Building trust and delivering excellence for over a decade in the relocation industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section aria-label="section" class="pt40 pb40 text-light" data-bgcolor="#181818">
+                <div class="wow fadeInRight d-flex">
+                  <div class="de-marquee-list">
+                    <div class="d-item">
+                      <span class="d-item-txt">SUV</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Hatchback</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Crossover</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Convertible</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Sedan</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Sports Car</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Coupe</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Minivan</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Station Wagon</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Truck</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Minivans</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Exotic Cars</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                     </div>
+                  </div>
+
+                  <div class="de-marquee-list">
+                    <div class="d-item">
+                      <span class="d-item-txt">SUV</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Hatchback</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Crossover</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Convertible</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Sedan</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Sports Car</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Coupe</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Minivan</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Station Wagon</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Truck</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Minivans</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                      <span class="d-item-txt">Exotic Cars</span>
+                      <span class="d-item-display">
+                        <i class="d-item-dot"></i>
+                      </span>
+                     </div>
+                  </div>
+                </div>
+            </section>
+            
+        </div>
+        <!-- content close -->
+        <a href="#" id="back-to-top"></a>
+
+
+         <!-- Owl Carousel Initialization -->
+         <script>
+            $(document).ready(function () {
+                $("#items-carousel").owlCarousel({
+                    loop: true,          // Enable infinite looping
+                    margin: 25,          // Margin between items
+                    nav: true,           // Show navigation buttons
+                    dots: false,         // Hide dots
+                    autoplay: true,      // Auto-slide items
+                    autoplayTimeout: 3000, // Set auto-slide duration
+                    responsive: {
+                        0: {
+                            items: 1     // 1 item on small screens
+                        },
+                        768: {
+                            items: 2     // 2 items on medium screens
+                        },
+                        1200: {
+                            items: 3     // 3 items on large screens
+                        }
+                    }
+                });
+            });
+        </script>
+        
+        <INCLURE(footer)>

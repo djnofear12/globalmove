@@ -1,0 +1,50 @@
+<INCLURE(header)>
+      <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
+            <!-- section begin -->
+            <section id="subheader" class="jarallax text-light">
+                <img src="images/background/subheader.jpg" class="jarallax-img" alt="">
+                    <div class="center-y relative text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <h1>Reviews</h1>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- section close -->
+
+            <section id="section-testimonials" class="no-top no-bottom" style="background-size: 100%; background-repeat: no-repeat;">
+                <div class="container-fluid" style="background-size: 100%; background-repeat: no-repeat;">
+                    <div class="row g-2 p-2 align-items-center" style="background-size: 100%; background-repeat: no-repeat;">
+                       <BOUCLE_testimonials(ARTICLES){id_rubrique=4}>
+                        <div class="col-md-4" style="background-size: 100%; background-repeat: no-repeat;">
+                            <div class="de-image-text" style="background-size: 100%; background-repeat: no-repeat;">
+                                <div class="d-text" style="background-size: 100%; background-repeat: no-repeat;">
+                                    <div class="d-quote id-color" style="background-size: 100%; background-repeat: no-repeat;">
+                                      <i class="fa fa-quote-right"></i>
+                                    </div>
+                                    <h4>#TITRE</h4>
+                                    <blockquote>
+                                      #SOUSTITRE
+                                      <span class="by">#TEXTE</span>
+                                    </blockquote>
+                                  </div>
+                                  
+                                <img src="[(#LOGO_ARTICLE|extraire_attribut{src})]" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        </BOUCLE_testimonials>
+
+                       
+                        
+                      
+                    </div>
+                </div>
+            </section>
+        </div>
+<INCLURE(footer)>

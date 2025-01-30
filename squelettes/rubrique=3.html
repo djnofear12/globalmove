@@ -1,0 +1,182 @@
+<INCLURE(header)>
+            <!-- section begin -->
+            <section id="subheader" class="jarallax text-light">
+                <img src="images/background/2.jpg" class="jarallax-img" alt="">
+                    <div class="center-y relative text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+									<h1>Cars</h1>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- section close -->
+
+            <section id="section-cars">
+                <div class="container">
+                    <div class="row">
+                        <!-- Filter Sidebar -->
+                        <div class="col-lg-3">
+                            <!-- Vehicle Type Filter -->
+                            <div class="item_filter_group">
+                                <h4>Vehicle Type</h4>
+                                <div class="de_form">
+                                    <BOUCLE_rentals(ARTICLES){id_rubrique=3}>
+                                        <div class="de_checkbox">
+                                            <input id="vehicle_type_#ID_ARTICLE" name="vehicle_type_#ID_ARTICLE" type="checkbox" value="vehicle_type_#ID_ARTICLE">
+                                            <label for="vehicle_type_#ID_ARTICLE">#TITRE</label>
+                                        </div>
+                                    </BOUCLE_rentals>
+                                </div>
+                            </div>
+            
+                            <!-- Car Body Type Filter -->
+                            <div class="item_filter_group">
+                                <h4>Car Body Type</h4>
+                                <div class="de_form">
+                                    <div class="de_checkbox">
+                                        <input id="car_body_type_1" name="car_body_type" type="checkbox" value="Convertible">
+                                        <label for="car_body_type_1">Convertible</label>
+                                    </div>
+                                    
+                                    <div class="de_checkbox">
+                                        <input id="car_body_type_2" name="car_body_type" type="checkbox" value="Sedan">
+                                        <label for="car_body_type_2">Sedan</label>
+                                    </div>
+                            
+                                    <div class="de_checkbox">
+                                        <input id="car_body_type_3" name="car_body_type" type="checkbox" value="SUV">
+                                        <label for="car_body_type_3">SUV</label>
+                                    </div>
+                            
+                                    <div class="de_checkbox">
+                                        <input id="car_body_type_4" name="car_body_type" type="checkbox" value="Coupe">
+                                        <label for="car_body_type_4">Coupe</label>
+                                    </div>
+                            
+                                    <div class="de_checkbox">
+                                        <input id="car_body_type_5" name="car_body_type" type="checkbox" value="Hatchback">
+                                        <label for="car_body_type_5">Hatchback</label>
+                                    </div>
+                            
+                                    <div class="de_checkbox">
+                                        <input id="car_body_type_6" name="car_body_type" type="checkbox" value="Wagon">
+                                        <label for="car_body_type_6">Wagon</label>
+                                    </div>
+                            
+                                    <div class="de_checkbox">
+                                        <input id="car_body_type_7" name="car_body_type" type="checkbox" value="Pickup">
+                                        <label for="car_body_type_7">Pickup</label>
+                                    </div>
+                            
+                                    <!-- Add more car body types here if necessary -->
+                                </div>
+                            </div>
+                            
+            
+                            <!-- Car Seats Filter -->
+                            <div class="item_filter_group">
+                                <h4>Car Seats</h4>
+                                <div class="de_form">
+                                    <div class="de_checkbox">
+                                        <input id="car_seat_1" name="car_seat_1" type="checkbox" value="car_seat_1">
+                                        <label for="car_seat_1">2 seats</label>
+                                    </div>
+                                    <div class="de_checkbox">
+                                        <input id="car_seat_2" name="car_seat_2" type="checkbox" value="car_seat_2">
+                                        <label for="car_seat_2">3 seats</label>
+                                    </div>
+                                    <div class="de_checkbox">
+                                        <input id="car_seat_3" name="car_seat_3" type="checkbox" value="car_seat_3">
+                                        <label for="car_seat_3">4 seats</label>
+                                    </div>
+                                    <div class="de_checkbox">
+                                        <input id="car_seat_4" name="car_seat_4" type="checkbox" value="car_seat_4">
+                                        <label for="car_seat_4">5 seats</label>
+                                    </div>
+                                    <div class="de_checkbox">
+                                        <input id="car_seat_5" name="car_seat_5" type="checkbox" value="car_seat_5">
+                                        <label for="car_seat_5">8 seats</label>
+                                    </div>
+                                    <!-- Repeat for other seat options -->
+                                </div>
+                            </div>
+            
+                            <!-- Engine Capacity Filter -->
+                            <div class="item_filter_group">
+                                <h4>Car Engine Capacity (cc)</h4>
+                                <div class="de_form">
+                                    <div class="de_checkbox">
+                                        <input id="car_engine_1" name="car_engine_1" type="checkbox" value="car_engine_1">
+                                        <label for="car_engine_1">1000 - 2000</label>
+                                    </div>
+                                    <!-- Repeat for other capacity ranges -->
+                                </div>
+                            </div>
+            
+                            <!-- Price Range Slider -->
+                            <div class="item_filter_group">
+                                <h4>Price ($)</h4>
+                                <div class="price-input">
+                                    <div class="field">
+                                        <span>Min</span>
+                                        <input type="number" class="input-min" value="0">
+                                    </div>
+                                    <div class="field">
+                                        <span>Max</span>
+                                        <input type="number" class="input-max" value="2000">
+                                    </div>
+                                </div>
+                                <div class="slider">
+                                    <div class="progress"></div>
+                                </div>
+                                <div class="range-input">
+                                    <input type="range" class="range-min" min="0" max="2000" value="0" step="1">
+                                    <input type="range" class="range-max" min="0" max="2000" value="2000" step="1">
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Rental Listings -->
+                        <div class="col-lg-9">
+                            <div class="row">
+                                <BOUCLE_rental(ARTICLES){id_rubrique=3}>
+                                    <div class="col-xl-4 col-lg-6">
+                                        <div class="de-item mb30">
+                                            <div class="d-img">
+                                                <img src="[(#LOGO_ARTICLE|extraire_attribut{src})]" class="img-fluid" alt="Car image">
+                                            </div>
+                                            <div class="d-info">
+                                                <div class="d-text">
+                                                    <h4>#TITRE</h4>
+                                                    <h5>#SOUSTITRE</h5>
+                                                </div>
+                                                <div class="d-atr-group">
+                                                    <span class="d-atr"><img src="images/icons/1-green.svg" alt="Seats">5</span>
+                                                    <span class="d-atr"><img src="images/icons/2-green.svg" alt="Doors">2</span>
+                                                    <span class="d-atr"><img src="images/icons/3-green.svg" alt="Luggage">4</span>
+                                                    <span class="d-atr"><img src="images/icons/4-green.svg" alt="Type">SUV</span>
+                                                </div>
+                                                <div class="d-price">
+                                                    Daily rate from<span>#TEXTE</span><br>
+                                                    <a class="btn-main" href="#URL_ARTICLE">Rent Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </BOUCLE_rental>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+			
+			
+        </div>
+        <!-- content close -->
+
+<INCLURE(footer)>

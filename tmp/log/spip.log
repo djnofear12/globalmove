@@ -1,0 +1,227 @@
+2025-01-21 13:38:19 ::1 (pid 3900) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 13:39:43 ::1 (pid 3900) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 13:39:55 ::1 (pid 3900) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 13:41:04 ::1 (pid 3900) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 13:42:21 ::1 (pid 3900) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 13:43:50 ::1 (pid 3900) :Pub:ERREUR: Erreur de compilation | Line 51 : syntax error, unexpected token ")" Squelette squelettes/slider.html Boucle _slide_indicators L9
+2025-01-21 13:43:58 ::1 (pid 3900) :Pub:ERREUR: Erreur de compilation | Line 51 : syntax error, unexpected token ")" Squelette squelettes/slider.html Boucle _slide_indicators L9
+2025-01-21 14:01:08 ::1 (pid 3900) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 15:04:56 ::1 (pid 3900) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 15:04:56 ::1 (pid 3900) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 15:04:57 ::1 (pid 3900) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 15:04:59 ::1 (pid 3900) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 15:04:59 ::1 (pid 3900) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 15:05:00 ::1 (pid 3900) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-21 15:15:34 ::1 (pid 3900) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 08:26:30 ::1 (pid 9604) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 08:26:40 ::1 (pid 9604) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 08:26:42 ::1 (pid 9604) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 08:26:43 ::1 (pid 9604) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 08:26:45 ::1 (pid 9604) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 08:26:49 ::1 (pid 9604) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 08:26:58 ::1 (pid 9604) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 08:39:23 ::1 (pid 9604) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 08:45:46 ::1 (pid 13136) :Pri:HS: Echec mysqli_connect. Erreur : No connection could be made because the target machine actively refused it
+2025-01-22 08:45:46 ::1 (pid 13136) :Pri:HS: Echec connexion serveur mysql : host[localhost] port[] login[root] base[globalmove]
+2025-01-22 08:45:46 ::1 (pid 13136) :Pri:HS: spip_connect: fichier de connexion '../config/connect.php' OK mais echec connexion au serveur
+2025-01-22 08:45:47 ::1 (pid 13136) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-22 08:45:47 ::1 (pid 13136) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-22 08:45:47 ::1 (pid 13136) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-22 08:45:47 ::1 (pid 13136) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-22 08:45:48 ::1 (pid 13136) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-22 08:45:54 ::1 (pid 13136) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-22 08:45:54 ::1 (pid 13136) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-22 08:45:54 ::1 (pid 13136) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-22 08:46:01 ::1 (pid 13136) :Pri:HS: Echec : ../tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-22 08:46:01 ::1 (pid 13136) :Pri:HS: spip_connect: fichier de connexion '../config/connect.php' OK mais echec connexion au serveur
+2025-01-22 08:46:02 ::1 (pid 13136) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-22 08:46:02 ::1 (pid 13136) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-22 08:46:02 ::1 (pid 13136) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-22 08:46:02 ::1 (pid 13136) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-22 08:46:02 ::1 (pid 13136) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-22 08:46:11 ::1 (pid 13136) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-22 08:46:11 ::1 (pid 13136) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-22 08:46:11 ::1 (pid 13136) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-22 12:43:19 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 12:43:23 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 12:45:44 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 12:52:24 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 12:54:56 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 12:58:50 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:02:16 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:02:27 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:05:03 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:39:22 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:40:25 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:43:24 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:48:53 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:49:47 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:50:08 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:05 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:05 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:07 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:07 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:07 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:09 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:09 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:42 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:43 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:48 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:51:48 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:56:55 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:56:55 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 13:56:55 ::1 (pid 828) :Pub:ERREUR: Critère inconnu &lt;span class='spip-debug-arg'>=&lt;/span> Squelette squelettes/sommaire.html Boucle _three L90
+2025-01-22 13:59:12 ::1 (pid 828) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 14:00:01 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-22 14:51:59 ::1 (pid 828) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 07:57:39 ::1 (pid 4200) :Pub:HS: Echec mysqli_connect. Erreur : No connection could be made because the target machine actively refused it
+2025-01-23 07:57:39 ::1 (pid 4200) :Pub:HS: Echec connexion serveur mysql : host[localhost] port[] login[root] base[globalmove]
+2025-01-23 07:57:39 ::1 (pid 4200) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-23 07:57:39 ::1 (pid 4200) :Pri:HS: Echec mysqli_connect. Erreur : No connection could be made because the target machine actively refused it
+2025-01-23 07:57:39 ::1 (pid 4200) :Pri:HS: Echec connexion serveur mysql : host[localhost] port[] login[root] base[globalmove]
+2025-01-23 07:57:39 ::1 (pid 4200) :Pri:HS: spip_connect: fichier de connexion '../config/connect.php' OK mais echec connexion au serveur
+2025-01-23 07:57:39 ::1 (pid 4200) :Pub:HS: Echec mysqli_connect. Erreur : No connection could be made because the target machine actively refused it
+2025-01-23 07:57:39 ::1 (pid 4200) :Pub:HS: Echec connexion serveur mysql : host[localhost] port[] login[root] base[globalmove]
+2025-01-23 07:57:39 ::1 (pid 4200) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-23 07:57:45 ::1 (pid 4200) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-23 07:57:45 ::1 (pid 4200) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-23 07:57:46 ::1 (pid 4200) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-23 07:57:46 ::1 (pid 4200) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-23 07:57:48 ::1 (pid 4200) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-23 07:57:48 ::1 (pid 4200) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-23 07:57:49 ::1 (pid 4200) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-23 07:58:00 ::1 (pid 4200) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-23 07:58:00 ::1 (pid 4200) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-23 07:58:00 ::1 (pid 4200) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-23 07:58:04 ::1 (pid 4200) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-23 07:58:04 ::1 (pid 4200) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-23 07:58:04 ::1 (pid 4200) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-23 07:58:08 ::1 (pid 4200) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-23 07:58:08 ::1 (pid 4200) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-23 07:58:08 ::1 (pid 4200) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-23 09:18:07 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:21:00 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:21:00 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:24:50 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:52 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:53 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:53 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:53 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:53 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:53 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:53 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:53 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:53 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:53 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:24:53 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 09:31:51 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:29 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:30 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:31 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:32 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:33 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:33 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:35 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:38 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:38 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:38 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:39 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:44 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:45 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:47 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:47 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:48 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:48 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:33:58 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:34:02 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:34:02 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:34:02 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:34:02 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:34:02 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:34:02 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:34:02 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:45:22 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:45:22 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:45:22 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:45:23 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:47:41 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:51:10 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:51:12 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:51:12 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:51:19 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:51:21 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:51:22 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:52:30 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:54:04 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:56:29 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:58:37 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:58:41 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 09:59:01 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 10:02:58 ::1 (pid 4200) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 10:04:42 ::1 (pid 4200) :Pub:ERREUR: echec creation tmp/cache/calcul/ef
+2025-01-23 10:04:44 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 10:04:44 ::1 (pid 4200) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:46 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:47 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:47 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:47 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:47 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:47 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:47 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:47 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-23 10:04:47 ::1 (pid 4200) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-24 08:19:29 ::1 (pid 2216) :Pri:HS: Echec mysqli_connect. Erreur : No connection could be made because the target machine actively refused it
+2025-01-24 08:19:29 ::1 (pid 2216) :Pri:HS: Echec connexion serveur mysql : host[localhost] port[] login[root] base[globalmove]
+2025-01-24 08:19:29 ::1 (pid 2216) :Pri:HS: spip_connect: fichier de connexion '../config/connect.php' OK mais echec connexion au serveur
+2025-01-24 08:19:44 ::1 (pid 2216) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-24 08:19:44 ::1 (pid 2216) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-24 08:19:44 ::1 (pid 2216) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-24 08:19:57 ::1 (pid 2216) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-24 08:19:57 ::1 (pid 2216) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-24 08:19:59 ::1 (pid 2216) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-24 12:22:02 ::1 (pid 2216) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-24 12:22:03 ::1 (pid 2216) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-24 12:22:03 ::1 (pid 2216) :Pri:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-24 12:22:05 ::1 (pid 2216) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-24 12:22:05 ::1 (pid 2216) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-24 12:22:05 ::1 (pid 2216) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-24 12:22:05 ::1 (pid 2216) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-24 12:22:05 ::1 (pid 2216) :Pri:!INFO: Ecriture fichier ../tmp/cache/xml/paquet.dtd.gz impossible
+2025-01-24 12:22:14 ::1 (pid 2216) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-24 12:22:14 ::1 (pid 2216) :Pub:!INFO: ecrire_fichier: operation atomique via rename() impossible, fallback non atomique via file_put_contentsOK
+2025-01-27 12:02:07 127.0.0.1 (pid 6120) :Pri:HS: Echec mysqli_connect. Erreur : No connection could be made because the target machine actively refused it
+2025-01-27 12:02:07 127.0.0.1 (pid 6120) :Pri:HS: Echec connexion serveur mysql : host[localhost] port[] login[root] base[globalmove]
+2025-01-27 12:02:07 127.0.0.1 (pid 6120) :Pri:HS: spip_connect: fichier de connexion '../config/connect.php' OK mais echec connexion au serveur
+2025-01-27 12:02:10 ::1 (pid 6120) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-27 12:02:10 ::1 (pid 6120) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-27 12:02:14 127.0.0.1 (pid 6120) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-27 12:02:14 127.0.0.1 (pid 6120) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-27 12:02:18 127.0.0.1 (pid 6120) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-27 12:02:18 ::1 (pid 6120) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'
+2025-01-27 12:02:34 ::1 (pid 6120) :Pub:HS: Echec : tmp/mysql.2a42beed.out recent. Pas de tentative de connexion
+2025-01-27 12:02:34 ::1 (pid 6120) :Pub:HS: spip_connect: fichier de connexion 'config/connect.php' OK mais echec connexion au serveur
+2025-01-27 12:02:34 ::1 (pid 6120) :Pub:ERREUR: Le serveur '' version 1 n'a pas 'showbase'

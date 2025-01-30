@@ -1,0 +1,98 @@
+a:2:{s:9:"nom_cache";s:38:"effe744ed5c26e77615e88a9de12c1db.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_840ebb0d0a43cd75accff45f88a62e80";s:6:"source";s:22:"squelettes/slider.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"effe744ed5c26e77615e88a9de12c1db.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:5208:"<!-- content begin -->
+<div class="no-bottom no-top" id="content">
+  <div id="top"></div>
+
+  <section id="de-carousel" class="no-top no-bottom carousel slide carousel-fade" data-mdb-ride="carousel" data-mdb-interval="5000" data-mdb-wrap="true">
+
+      <!-- Indicators -->
+      <ol class="carousel-indicators z1000">
+          
+          <li data-mdb-target="#de-carousel" data-mdb-slide-to="0" class=" active"></li>
+          
+          <li data-mdb-target="#de-carousel" data-mdb-slide-to="1" class=""></li>
+          
+          <li data-mdb-target="#de-carousel" data-mdb-slide-to="2" class=""></li>
+          
+      </ol>
+
+      <!-- Inner -->
+      <div class="carousel-inner position-relative">
+          
+          <div class="carousel-item  active jarallax">
+              <img src="IMG/logo/car-2.png?1737546337" class="jarallax-img" alt="Slide Image">
+              <div class="mask">
+                  <div class="no-top no-bottom">
+                      <div class="h-100 v-center">
+                          <div class="container">
+                              <div class="row gx-5 align-items-center" style="color: white;">
+                                  <div class="col-lg-6 offset-lg-3 text-center mb-sm-30">
+                                      <h1 class="s3 mb-3 wow fadeInUp" style="color: rgb(236, 234, 234);">Premium Cars</h1>
+                                      <p class="lead wow fadeInUp" data-wow-delay=".3s">Experience the world’s most reliable and efficient relocation solutions.</p>
+                                      <div class="spacer-10"></div>
+                                      <a class="btn-line mb10 wow fadeInUp" data-wow-delay=".6s" href="spip.php?article1" style="color: white;">Discover</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="carousel-item  jarallax">
+              <img src="IMG/logo/1.jpg?1737471859" class="jarallax-img" alt="Slide Image">
+              <div class="mask">
+                  <div class="no-top no-bottom">
+                      <div class="h-100 v-center">
+                          <div class="container">
+                              <div class="row gx-5 align-items-center" style="color: white;">
+                                  <div class="col-lg-6 offset-lg-3 text-center mb-sm-30">
+                                      <h1 class="s3 mb-3 wow fadeInUp" style="color: rgb(236, 234, 234);">First Class</h1>
+                                      <p class="lead wow fadeInUp" data-wow-delay=".3s">Move with ease and elegance, offering you unparalleled comfort and precision in every step of the way.</p>
+                                      <div class="spacer-10"></div>
+                                      <a class="btn-line mb10 wow fadeInUp" data-wow-delay=".6s" href="spip.php?article21" style="color: white;">Discover</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="carousel-item  jarallax">
+              <img src="IMG/logo/2-2.jpg?1737468953" class="jarallax-img" alt="Slide Image">
+              <div class="mask">
+                  <div class="no-top no-bottom">
+                      <div class="h-100 v-center">
+                          <div class="container">
+                              <div class="row gx-5 align-items-center" style="color: white;">
+                                  <div class="col-lg-6 offset-lg-3 text-center mb-sm-30">
+                                      <h1 class="s3 mb-3 wow fadeInUp" style="color: rgb(236, 234, 234);">Save Drivers</h1>
+                                      <p class="lead wow fadeInUp" data-wow-delay=".3s">Our experienced drivers are ready to accompany your journey with seamless, reliable relocation services.</p>
+                                      <div class="spacer-10"></div>
+                                      <a class="btn-line mb10 wow fadeInUp" data-wow-delay=".6s" href="spip.php?article22" style="color: white;">Discover</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+      <!-- Inner End -->
+
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#de-carousel" role="button" data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#de-carousel" role="button" data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+
+      <div class="de-gradient-edge-bottom"></div>
+  </section>
+</div>
+<!-- content close -->
+";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"fr";s:4:"date";s:19:"2025-01-27 12:02:58";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2025-01-27 12:02:58";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1737975772;s:2:"gz";b:0;s:3:"sig";i:1182875268;}}

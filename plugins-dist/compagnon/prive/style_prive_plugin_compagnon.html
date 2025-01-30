@@ -1,0 +1,150 @@
+[(#REM)
+
+	Ce squelette definit les styles de l'espace prive
+
+	Note: l'entete "Vary:" sert a repousser l'entete par
+	defaut "Vary: Cookie,Accept-Encoding", qui est (un peu)
+	genant en cas de "rotation du cookie de session" apres
+	un changement d'IP (effet de clignotement).
+	<style>
+]
+#CACHE{3600*100,cache-client}
+#HTTP_HEADER{Content-Type: text/css; charset=utf-8}
+#HTTP_HEADER{Vary: Accept-Encoding}
+
+:root {
+	--compagnon-picto-size: 2.5em;
+	--compagnon-border-radius: calc(var(--spip-border-radius) * 2);
+	--compagnon-border-width: 2px;
+	--compagnon-icon-spacing-x: 1em;
+}
+
+@media (min-width: 768px) {
+	:root {
+		--compagnon-picto-size: 4em;
+	}
+}
+.lat {
+	--compagnon-picto-size: 2.5em;
+}
+
+/**
+ * ===============
+ * Boîte compagnon
+ * ===============
+ */
+.box.compagnon {
+	border: var(--compagnon-border-width) solid var(--spip-color-theme);
+	border-radius: var(--compagnon-border-radius);
+	color: var(--spip-color-gray-darker);
+	background-color: var(--spip-color-theme-lightest);
+	overflow: hidden;
+}
+
+/* Picto */
+.box.compagnon .picto-compagnon {
+	position: absolute;
+	top: calc(var(--compagnon-picto-size) * 0.15 * -1);
+	#LEFT: calc(var(--compagnon-picto-size) * 0.15 * -1);
+	width: var(--compagnon-picto-size);
+	height: auto;
+}
+.rtl .box.compagnon .picto-compagnon {
+	transform: rotate(45deg);
+}
+
+.picto-compagnon .fond {
+	fill: var(--spip-color-theme-light);
+}
+.picto-compagnon .visage {
+	fill: var(--spip-color-theme-lightest);
+}
+.picto-compagnon .visage-trait {
+	fill: var(--spip-color-theme);
+}
+.picto-compagnon .ombre {
+	fill: hsl(var(--spip-color-theme--h),var(--spip-color-theme--s), 70%);
+}
+
+/* Header, body, footer */
+.box.compagnon .box__header,
+.box.compagnon .box__body {
+	padding-#LEFT: calc(var(--compagnon-picto-size) + 0.5em);
+}
+.box.compagnon .box__header {
+	min-height: 2.5em;
+	padding-bottom: calc(var(--spip-box-spacing-y) / 2);
+	color: var(--spip-color-theme-dark);
+	border: 0;
+}
+.box.compagnon .box__body {
+	padding-top: calc(var(--spip-box-spacing-y) / 2);
+}
+.box.compagnon .box__footer {
+	background-color: transparent;
+	border-top: none;
+	padding: 0;
+}
+
+/* Bouton */
+.box.compagnon .box__header .bouton_action_post {
+	float: #RIGHT;
+}
+.box.compagnon .box__header button.submit {
+	opacity: .5;
+	margin-#RIGHT: calc(-1 * var(--spip-box-spacing-x));
+	margin-top: calc(-1 * var(--spip-box-spacing-y));
+	padding: .75em;
+	border-radius: var(--compagnon-border-radius);
+}
+.box.compagnon .box__header button.submit svg {
+	width: 1em;
+	height: 1em;
+}
+.box.compagnon .box__header button.submit svg circle {
+	fill: var(--spip-color-theme-dark);
+}
+.box.compagnon .box__header button.submit:hover,
+.box.compagnon .box__header button.submit:focus {
+	opacity: 1;
+}
+
+.box.compagnon .box__footer button.submit {
+	border: var(--compagnon-border-width) solid var(--spip-color-theme);
+	border-#RIGHT-width: 0;
+	border-bottom-width: 0;
+	border-top-#LEFT-radius: var(--compagnon-border-radius);
+	border-top-#RIGHT-radius: 0;
+	border-bottom-#RIGHT-radius: calc(var(--compagnon-border-radius) - var(--compagnon-border-width));
+	border-bottom-#LEFT-radius: 0;
+	margin: 0;
+	font-size: 1em;
+}
+.box.compagnon .box__footer button.submit:not(:hover):not(:focus) {
+	background-color: var(--spip-color-theme-lighter);
+	color: var(--spip-color-theme-dark);
+}
+.box.compagnon .box__footer button.submit:hover,
+.box.compagnon .box__footer button.submit:focus {
+	border-color: var(--spip-btn-color-main-hover-bg);
+}
+
+/* Cible dans le pied à gauche */
+.box.compagnon .target {
+	position: absolute;
+	bottom: 5px;
+	#LEFT: 5px;
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url([(#CHEMIN_IMAGE{target-32.png}|image_sepia{#ENV{foncee}|couleur_eclaircir}|extraire_attribut{src})]);
+	cursor: crosshair;
+}
+
+/* Explications éventuelles */
+.box.compagnon .compagnon_helper {
+	padding: var(--spip-spacing-x);
+	margin: var(--spip-spacing-y) 0;
+	border-radius: var(--compagnon-border-radius);
+	background-color: var(--spip-color-theme-lighter);
+}

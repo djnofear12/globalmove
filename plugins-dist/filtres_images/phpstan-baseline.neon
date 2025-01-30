@@ -1,0 +1,277 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Function _couleur_dec_to_hex not found\\.$#"
+			count: 4
+			path: filtres/couleurs.php
+
+		-
+			message: "#^Function _couleur_hex_to_dec not found\\.$#"
+			count: 6
+			path: filtres/couleurs.php
+
+		-
+			message: "#^Function _couleur_hsl_to_rgb not found\\.$#"
+			count: 2
+			path: filtres/couleurs.php
+
+		-
+			message: "#^Function _couleur_rgb_to_hsl not found\\.$#"
+			count: 2
+			path: filtres/couleurs.php
+
+		-
+			message: "#^Function couleur_eclaircir not found\\.$#"
+			count: 1
+			path: filtres/couleurs.php
+
+		-
+			message: "#^Function couleur_foncer not found\\.$#"
+			count: 1
+			path: filtres/couleurs.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 7
+			path: filtres/couleurs.php
+
+		-
+			message: "#^Function _couleur_dec_to_hex not found\\.$#"
+			count: 3
+			path: filtres/images_lib.php
+
+		-
+			message: "#^Function _couleur_hsl_to_rgb not found\\.$#"
+			count: 1
+			path: filtres/images_lib.php
+
+		-
+			message: "#^Function _couleur_rgb_to_hsl not found\\.$#"
+			count: 1
+			path: filtres/images_lib.php
+
+		-
+			message: "#^Function _image_valeurs_trans not found\\.$#"
+			count: 1
+			path: filtres/images_lib.php
+
+		-
+			message: "#^Function ecrire_fichier not found\\.$#"
+			count: 1
+			path: filtres/images_lib.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 1
+			path: filtres/images_lib.php
+
+		-
+			message: "#^Function lire_fichier not found\\.$#"
+			count: 1
+			path: filtres/images_lib.php
+
+		-
+			message: "#^Function svg_extract_couleurs not found\\.$#"
+			count: 1
+			path: filtres/images_lib.php
+
+		-
+			message: "#^Function _couleur_hex_to_dec not found\\.$#"
+			count: 4
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function _image_ecrire_tag not found\\.$#"
+			count: 15
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function _image_gd_output not found\\.$#"
+			count: 27
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function _image_tag_changer_taille not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function _image_valeurs_trans not found\\.$#"
+			count: 22
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function charger_fonction not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function hauteur not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function image_reduire not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function imagick_isopaqueimage not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function imagick_readimage not found\\.$#"
+			count: 2
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function imagick_setfillcolor not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function imagick_writeimage not found\\.$#"
+			count: 2
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 6
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function largeur not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function spip_log not found\\.$#"
+			count: 2
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function spip_unlink not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function svg_ajouter_background not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function svg_ajouter_voile not found\\.$#"
+			count: 2
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function svg_filter_blur not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function svg_filter_grayscale not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function svg_filter_sepia not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function svg_flip not found\\.$#"
+			count: 2
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function svg_recadrer not found\\.$#"
+			count: 3
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function svg_rotate not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function svg_transformer not found\\.$#"
+			count: 1
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function taille_image not found\\.$#"
+			count: 3
+			path: filtres/images_transforme.php
+
+		-
+			message: "#^Function _T not found\\.$#"
+			count: 1
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function _image_gd_output not found\\.$#"
+			count: 1
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function couleur_html_to_hex not found\\.$#"
+			count: 1
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function find_in_path not found\\.$#"
+			count: 2
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function html2unicode not found\\.$#"
+			count: 1
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 2
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function init_mb_string not found\\.$#"
+			count: 1
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function inserer_attribut not found\\.$#"
+			count: 1
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function sous_repertoire not found\\.$#"
+			count: 1
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function spip_getimagesize not found\\.$#"
+			count: 1
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function spip_log not found\\.$#"
+			count: 1
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function spip_strlen not found\\.$#"
+			count: 2
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function spip_substr not found\\.$#"
+			count: 2
+			path: filtres/images_typo.php
+
+		-
+			message: "#^Function include_spip not found\\.$#"
+			count: 2
+			path: images_fonctions.php
+

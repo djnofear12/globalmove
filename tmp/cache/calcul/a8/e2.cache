@@ -1,0 +1,120 @@
+a:2:{s:9:"nom_cache";s:38:"a8e26208d9d51e81c332abd77bc040a3.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_e5729a40396d9b72400436017c084a7a";s:6:"source";s:23:"squelettes/article.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"a8e26208d9d51e81c332abd77bc040a3.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:6680:"<?php echo recuperer_fond( 'header', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_e5729a40396d9b72400436017c084a7a','',1,$GLOBALS['spip_lang'])), _request('connect') ?? '');
+?>
+<!-- content begin -->
+<div class="no-bottom no-top zebra" id="content">
+    <div id="top"></div>
+
+    <!-- section begin -->
+    <section id="subheader" class="jarallax text-light">
+        <img src="images/background/2.jpg" class="jarallax-img" alt="">
+        <div class="center-y relative text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1>Vehicle Fleet</h1>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section close -->
+
+    <!-- Check if id_article is provided -->
+    
+        <!-- Display details for the specific article -->
+        <section id="section-car-details">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <div id="slider-carousel" class="owl-carousel">
+                            <div class="item">
+                                <img src="IMG/logo/2-2.jpg?1737468953" alt="Save Drivers">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>Save Drivers</h3>
+                        
+                        <div class="spacer-single"></div>
+                        <p>Our experienced drivers are ready to accompany your journey with seamless, reliable relocation services.</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="de-price text-center">
+                            Daily rate
+                            <h3>$180</h3>
+                        </div>
+                        <div class="spacer-30"></div>
+                        <a class="btn-main" href="spip.php?article22">Rent Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+    <!-- If no id_article, show a list of articles -->
+    
+        <section id="section-article-list">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Ranger Rover</h3>
+                        <p><p>The 2016 Range Rover combines luxury, performance, and off-road capability, making it one of the best full-size SUVs available. It offers a refined design, powerful engine options, and a sophisticated interior, providing a seamless driving experience whether on or off the road.</p>
+<p>Specifications&nbsp;:<br class='autobr' />
+Body Type&nbsp;: SUV<br class='autobr' />
+Seats&nbsp;: 5 seats<br class='autobr' />
+Doors&nbsp;: 4 doors<br class='autobr' />
+Luggage Capacity&nbsp;: 900 L<br class='autobr' />
+Fuel Type&nbsp;: Diesel<br class='autobr' />
+Engine&nbsp;: 3.0L V6<br class='autobr' />
+Year&nbsp;: 2016<br class='autobr' />
+Mileage&nbsp;: 60,000 miles<br class='autobr' />
+Transmission&nbsp;: Automatic<br class='autobr' />
+Drive Type&nbsp;: 4WD<br class='autobr' />
+Fuel Economy&nbsp;: 22 mpg city / 28 mpg highway<br class='autobr' />
+Exterior Color&nbsp;: British Racing Green<br class='autobr' />
+Interior Color&nbsp;: Tan Leather</p></p>
+                        <a class="btn-main" href="spip.php?article18">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="section-article-list">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>TXL</h3>
+                        <p><p>The 2018 TXL delivers a perfect blend of luxury, power, and versatility, making it one of the top contenders in the full-size SUV segment. Its sleek design, advanced technology features, and high-performance engine options ensure a thrilling driving experience, whether navigating city streets or tackling rugged terrain. The interior is meticulously crafted for comfort, offering top-notch materials and ample space for passengers and cargo alike. Whether you&#8217;re looking for an elegant daily driver or an adventure-ready SUV, the 2018 TXL offers a refined yet capable solution.</p></p>
+                        <a class="btn-main" href="spip.php?article19">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="section-article-list">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Toyota Prado</h3>
+                        <p><p>Toyota Prado (2004/6)<br class='autobr' />
+The Toyota Prado is a rugged and reliable 4x4 vehicle, designed for both on-road and off-road adventures. This 2004/6 model offers a perfect blend of luxury, performance, and durability.<br class='autobr' />
+Engine&nbsp;: 3.0L Turbo Diesel or 4.0L V6 (depending on the variant)<br class='autobr' />
+Transmission&nbsp;: 5-speed automatic or manual<br class='autobr' />
+Fuel Economy&nbsp;: Excellent fuel efficiency for its class<br class='autobr' />
+Interior&nbsp;: Spacious, with comfortable seating for up to 7 passengers. Features include leather upholstery, climate control, and a modern infotainment system.<br class='autobr' />
+Safety Features&nbsp;: Includes airbags, anti-lock braking system (ABS), electronic stability control (ESC), and more to ensure a secure driving experience.<br class='autobr' />
+Off-Road Capability&nbsp;: Full-time 4WD system with high and low-range gearing, perfect for tackling rough terrains and difficult conditions.<br class='autobr' />
+Exterior&nbsp;: Bold and muscular styling, with alloy wheels, a large front grille, and roof rails.<br class='autobr' />
+Additional Features&nbsp;: Power windows, cruise control, parking sensors, and towing capacity make it a versatile and reliable option for families and adventurers alike.</p></p>
+                        <a class="btn-main" href="spip.php?article20">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+</div>
+<?php echo recuperer_fond( 'footer', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_e5729a40396d9b72400436017c084a7a','',29,$GLOBALS['spip_lang'])), _request('connect') ?? '');
+?>
+";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:9:"article22";s:0:"";s:10:"id_article";s:2:"22";s:9:"type-page";s:7:"article";s:4:"date";s:19:"2025-01-27 12:17:35";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2025-01-27 12:17:35";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1737976654;s:2:"gz";b:0;s:3:"sig";i:2436030157;}}
